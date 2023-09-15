@@ -1,4 +1,5 @@
 # Generated bindings
-widget/types.py
-widget/imports/
+widget/
 componentize_py_runtime/
+/__pycache__
+/widget.wasm

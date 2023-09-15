@@ -1,4 +1,5 @@
 import widget
+from widget.imports.types import WidgetContext, WidgetResult
 
 class Widget(widget.Widget):
 
@@ -14,5 +15,5 @@ class Widget(widget.Widget):
     def get_run_update_cycle_seconds(self) -> int:
         return 1
 
-    def run(self, context: widget.types.WidgetContext) -> widget.types.WidgetResult:
-        return widget.types.WidgetResult(data="Hello World!")
+    def run(self, context: WidgetContext) -> WidgetResult:
+        return WidgetResult(data="Hello World!")
