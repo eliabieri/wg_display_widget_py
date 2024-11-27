@@ -1,7 +1,7 @@
 
 # WG Display widget template for Python
 
-Template repository for creating a [WG Display](https://github.com/eliabieri/wg_display) widget in Rust. 
+Template repository for creating a [WG Display](https://github.com/eliabieri/wg_display) widget in Python. 
 
 ```bash
 # Generate bindings
